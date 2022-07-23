@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_req_permissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request permissions" />
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:letterSpacing="0.2"
+                android:text="Smart location tracking"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_fetch_location_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Fetch single location" />
+
+            <Button
+                android:id="@+id/btn_start_location_tracking_smart"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Start smart location tracking" />
+
+            <Button
+                android:id="@+id/btn_add_geofence"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Add geofence for current location" />
+
+
+            <Button
+                android:id="@+id/btn_start_location_tracking"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Start location tracking" />
+
+            <Button
+                android:id="@+id/btn_stop_location_tracking"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Stop location tracking" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

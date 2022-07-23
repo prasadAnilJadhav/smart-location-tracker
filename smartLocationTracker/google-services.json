@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "273753397947",
+    "project_id": "customanalytics-f0567",
+    "storage_bucket": "customanalytics-f0567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273753397947:android:eaa44542f0435213d3e79e",
+        "android_client_info": {
+          "package_name": "com.prasadjadhav.smartlocationtracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273753397947-ri2bua5qgj4kogi8ktq4mop7tpc5vt25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8thBeDSpNgCG9pmdX3SHKj0R67eg7BLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273753397947-ri2bua5qgj4kogi8ktq4mop7tpc5vt25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273753397947:android:fffa6a7b949410a5d3e79e",
+        "android_client_info": {
+          "package_name": "com.prasadjadhav.smartlocationtrackerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273753397947-ri2bua5qgj4kogi8ktq4mop7tpc5vt25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8thBeDSpNgCG9pmdX3SHKj0R67eg7BLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273753397947-ri2bua5qgj4kogi8ktq4mop7tpc5vt25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
